@@ -1,0 +1,17 @@
+{
+  "name": "system-design-course",
+  "version": "1.0.0",
+  "description": "Learning system design concepts through small, runnable code examples.",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "new": "node scripts/new-topic.js",
+    "topic": "node scripts/run-topic.js",
+    "list": "node scripts/run-topic.js",
+    "check": "node scripts/check-all.js"
+  },
+  "license": "MIT"
+}
